@@ -86,6 +86,11 @@ a:hover {
 	grid-area: about;
 }
 
+.about ul {
+	padding: 0;
+	list-style-position: inside;
+}
+
 .contact {
 	grid-area: contact;
 }
