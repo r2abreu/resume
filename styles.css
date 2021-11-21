@@ -43,7 +43,7 @@ a:hover {
 	margin: auto;
 	margin-top: 3rem;
 	grid-template-columns: 1fr;
-	grid-template-areas: "photo" "name" "contact" "about" "work" "education" "skills" "projects" "references";
+	grid-template-areas: "photo" "name" "contact" "about" "work" "education" "skills" "references";
 	grid-gap: 0.5rem 3rem;
 	padding: 0 2rem;
 	-webkit-box-shadow: 0px 2px 22px 0px rgba(0, 0, 0, 0.43);
@@ -194,7 +194,7 @@ hr {
 	.resume {
 		grid-template-columns: 2fr 1fr;
 		grid-template-areas: "name photo" "contact contact" "about about" "work work" "skills skills"
-			"education education" "projects projects";
+			"education education";
 	}
 	.name {
 		text-align: justify;
@@ -219,7 +219,7 @@ hr {
 @media screen and (min-width: 1200px), print {
 	.resume {
 		grid-template-columns: 2fr 1fr;
-		grid-template-areas: "name photo" "contact contact" "work about" "work skills" "projects education"
-			"projects education";
+		grid-template-areas: "name photo" "contact contact" "work about" "work skills" "work education"
+			"work education";
 	}
 }
