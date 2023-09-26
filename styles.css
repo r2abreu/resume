@@ -28,6 +28,12 @@ h3 {
 	font-weight: 600;
 }
 
+.work a {
+  text-decoration: none;
+  color: #0096969c;
+  font-weight: bold;
+}
+
 a:not(li > a) {
 	text-decoration: none;
 	color: black;
